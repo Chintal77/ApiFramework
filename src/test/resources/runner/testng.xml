@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<listeners>
+		<listener class-name="extentlisteners.ExtentListeners"></listener>
+	</listeners>
+
+	<test name="Create Customer API Test">
+		<classes>
+			<class name="com.testcases.CreateCustomerTest" />
+		</classes>
+	</test>
+	
+	<test name="Delete Customer API Test">
+		<classes>
+			<class name="com.testcases.DeleteCustomerTest" />
+		</classes>
+	</test>
+
+	
+
+</suite> <!-- Suite -->
