@@ -23,8 +23,6 @@ public class CreateCustomerTest extends BaseTest {
 	public void validSecret(Hashtable<String, String> data)
 
 	{
-
-		
 		Response res = CreateCustomerAPI.sendPostRequestToCreateCustomerwithValidKey(data);
 		System.out.println(res.prettyPrint());
 		ExtentListeners.testReport.get().info(data.toString());	
